@@ -1,0 +1,955 @@
+[
+  {
+    "description": "  Description: The purpose of this feature is to illustrate the usage of the Background keyword",
+    "elements": [
+      {
+        "description": "",
+        "id": "admin-privileges;admin-can-access-human-resources-records",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Admin can access Human Resources records",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 165384800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to login page",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88951399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I submit username \"admin\" and password \"pw1234\"",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 222110899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I will be logged into the Admin Dashboard",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2079700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Admin searches for employee \"Joe Doe\"",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 224924300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "information appears that employee \"Joe Doe\" belongs to department \"Marketing\"",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19762400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 47096099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@background",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "admin-privileges;admin-can-access-sales-statistics",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Admin can access Sales statistics",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 111150899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to login page",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67549800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I submit username \"admin\" and password \"pw1234\"",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 159124800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I will be logged into the Admin Dashboard",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 838999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "Admin looks up total sales amount for month \"June\" in year \"2022\"",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131888799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the total \"June\" sales amount is \"32164\"",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2810999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 29289800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@background",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "admin-privileges",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Admin Privileges",
+    "tags": [],
+    "uri": "acceptance\\features\\AdminPrivileges.feature"
+  },
+  {
+    "description": "  Description: The purpose of this feature is to illustrate the usage of concurrent windows",
+    "elements": [
+      {
+        "description": "",
+        "id": "different-people-go-to-different-places;concurrent-windows-are-possible",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Concurrent windows are possible",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 123065499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "different people went to different sites",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\ConcurrentWindowsSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 269660799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "they realize that they forgot what they actually wanted to do there",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\ConcurrentWindowsSteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 345670800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "they leave the sites again",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\ConcurrentWindowsSteps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1189900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 61013100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@concurrentWindows",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "different-people-go-to-different-places",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Different people go to different places",
+    "tags": [],
+    "uri": "acceptance\\features\\ConcurrentWindows.feature"
+  },
+  {
+    "description": "  Description: The purpose of this feature is to illustrate the usage of inline variables",
+    "elements": [
+      {
+        "description": "",
+        "id": "convert-celsius-feature;convert-celsius-to-correct-fahrenheit-equivalent",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Convert Celsius to correct Fahrenheit equivalent",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 119992700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I provide \"30\" degree Celsius",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\ConvertCelsiusContext.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 109042799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click the convert button",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\ConvertCelsiusContext.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 98784299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see as result \"86\" Fahrenheit",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\ConvertCelsiusContext.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10277700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 26858099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@inlineVars",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "convert-celsius-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Convert Celsius Feature",
+    "tags": [],
+    "uri": "acceptance\\features\\ConvertCelsius.feature"
+  },
+  {
+    "description": "  Description: The purpose of this feature is to illustrate the usage of a scenario outline",
+    "elements": [
+      {
+        "description": "",
+        "id": "creditcard-feature;different-responses-to-credit-card-data-input",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "Different responses to credit card data input",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 144546499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User is on card card entry page",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\CreditCardContext.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82331499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User Joe Doe enters card number 4242424242424242 together with expiry date 10/27 and cvv 753",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\CreditCardContext.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 181995900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the page will respond with Success and provide as reason You are using VISA",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\CreditCardContext.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16197600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 21725800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenarioOutline",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "creditcard-feature;different-responses-to-credit-card-data-input",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "Different responses to credit card data input",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 122874100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User is on card card entry page",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\CreditCardContext.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79725599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User Hans Hansen enters card number 5555555555554444 together with expiry date 02/28 and cvv 159",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\CreditCardContext.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 191166000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the page will respond with Success and provide as reason You are using MASTERCARD",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\CreditCardContext.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11358000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 23594699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenarioOutline",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "creditcard-feature;different-responses-to-credit-card-data-input",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "Different responses to credit card data input",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 126555099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User is on card card entry page",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\CreditCardContext.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85747200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User Eugene Tonya enters card number 4000000000009995 together with expiry date 07/26 and cvv 741",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\CreditCardContext.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 193207400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the page will respond with Declined and provide as reason You have insufficient funds",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\CreditCardContext.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13418999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 21496700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenarioOutline",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "creditcard-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Creditcard Feature",
+    "tags": [],
+    "uri": "acceptance\\features\\Creditcard.feature"
+  },
+  {
+    "description": "  Description: The purpose of this feature is to illustrate the usage of horizontal and vertical data tables",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-feature;login-with-correct-credential",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Login with correct credential",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 117081400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to login page",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76811400
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "admin",
+                      "pw1234"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I enter following for login",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\LoginContext.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48211000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click login button",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\LoginContext.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 91465699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should be able to access the protected area",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\LoginContext.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10424800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 18120699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@horizontalTable",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;login-with-correct-credentials",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Login with correct credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 144679900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I navigate to login page",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78604600
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "admin"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "password",
+                      "pw1234"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I enter following values to login",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\LoginContext.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52583800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I click login button",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\LoginContext.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 111718899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I should be able to access the protected area",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\LoginContext.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10313000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 24259100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@verticalTable",
+            "line": 13
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login Feature",
+    "tags": [],
+    "uri": "acceptance\\features\\Login.feature"
+  },
+  {
+    "description": "  Description: The purpose of this feature is to illustrate the usage of a long vertical table",
+    "elements": [
+      {
+        "description": "",
+        "id": "provide-your-details-feature;submit-address-and-communication-details",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Submit address and communication details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 118591400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to Information about yourself page",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\ProvideYourDetailsContext.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 74760700
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstname",
+                      "Joe"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "lastname",
+                      "Doe"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "street",
+                      "10 Example Street"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "city",
+                      "Sample Town"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "zip",
+                      "99999"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "state",
+                      "Great State"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "country",
+                      "USA"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "mobile phone",
+                      "123-456-789"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "home phone",
+                      "987-654-321"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "email",
+                      "joe@example.com"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I provide the following details",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\ProvideYourDetailsContext.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 266242499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I will see message \"Thank you!\"",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\ProvideYourDetailsContext.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12483599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 30781200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@verticalTableLong",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "provide-your-details-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Provide Your Details Feature",
+    "tags": [],
+    "uri": "acceptance\\features\\ProvideYourDetails.feature"
+  }
+]
